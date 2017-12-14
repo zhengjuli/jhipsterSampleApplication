@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "zhengjuli",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 9000,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.13.0",
+    "packageFolder": "io/github/jhipster/application",
+    "jwtSecretKey": "e8bf3bb6e954949838edc2b9134615d43fd36416",
+    "jhiPrefix": "jhi"
+  }
+}
